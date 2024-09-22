@@ -19,12 +19,22 @@ public class PlayerMovement : MonoBehaviour
         // Move the player if the left or right arrow keys are pressed
         if (moveInput != 0)
         {
+            if (!isMoving)
+            {
+                // Perform actions that should happen when movement starts (e.g., play animation)
+                Debug.Log("Player started moving.");
+            }
             isMoving = true;
             rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
         }
         else
         {
-            // Stop player when no input
+            if (isMoving)
+            {
+                // Perform actions that should happen when movement stops (e.g., stop animation)
+                Debug.Log("Player stopped moving.");
+            }
+            isMoving = false;
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
     }
@@ -36,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isMoving = false;
             rb.velocity = Vector2.zero;
+            Debug.Log("Player collided with an object and stopped moving.");
         }
     }
 }
