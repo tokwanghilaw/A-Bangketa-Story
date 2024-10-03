@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: tokwanghilaw
   productName: A Bangketa Story
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: 1e29adbea544fbd4cb0428411736118d, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
