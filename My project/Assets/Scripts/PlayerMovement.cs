@@ -6,6 +6,10 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     private bool isMoving = false;
 
+    // Define the screen boundaries (you can adjust these values)
+    public float minX = -8.5f; // Left boundary
+    public float maxX = 8.5f;  // Right boundary
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -37,6 +41,11 @@ public class PlayerMovement : MonoBehaviour
             isMoving = false;
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
+
+        // Clamp the player's position to be within the screen boundaries
+        Vector2 clampedPosition = transform.position;
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, minX, maxX);
+        transform.position = clampedPosition;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
