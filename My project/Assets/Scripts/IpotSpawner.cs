@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FallingObjectSpawner : MonoBehaviour
+public class IpotSpawner : MonoBehaviour
 {
     public GameObject obstaclePrefab; // Reference to the prefab
     public float spawnInterval = 1f; // Time between spawns

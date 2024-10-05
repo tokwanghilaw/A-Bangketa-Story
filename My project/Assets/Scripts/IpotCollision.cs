@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FallingObjectCollision : MonoBehaviour
+public class IpotCollision : MonoBehaviour
 {
     public float destroyYThreshold = -5f; // Y-coordinate threshold for destruction
     private ScoreManager scoreManager;
