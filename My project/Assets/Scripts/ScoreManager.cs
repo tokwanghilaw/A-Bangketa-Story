@@ -20,6 +20,11 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreText();
     }
 
+    public int GetScore()
+    {
+        return score; // Return the current score for other scripts to access
+    }
+
     private void UpdateScoreText()
     {
         // Update the UI text to display the current score
