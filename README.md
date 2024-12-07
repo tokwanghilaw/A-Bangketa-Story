@@ -25,8 +25,17 @@ A Bangketa Story is a 2D Arcade Dodging Game inspired by real life experiences i
 Bianca Natalie Labrador 
 * [@__biancanatalie](https://www.instagram.com/__biancanatalie)
 
-## Acknowledgments and Inspirations
+## Acknowledgments
 
-* John Michael Coronel | [kaffw](https://github.com/kaffw)
+Game Inspirations
 * Kamote Racer by Blademhir Ferrer
 * Coconut Huskers by Mathew Talagtag
+
+Fonts
+* [Grape Soda](https://fontenddev.com/fonts/grape-soda/)
+* [SD Auto Pilot](https://www.dafont.com/sd-auto-pilot.font)
+
+And special thanks to JM for helping me out on this game ꒰ᐢ. .ᐢ꒱₊˚⊹
+Ya'll might also wanna check his profile out. We're currently developing a game called Behind the Human Facade, a group dev project for our 2D-Game Development course.
+Long live the Star Guardians ⋆✴︎˚｡⋆ !
+* John Michael Coronel | [kaffw](https://github.com/kaffw)
