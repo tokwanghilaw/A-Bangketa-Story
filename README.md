@@ -1,6 +1,6 @@
 # A Bangketa Story (WIP: 85%)
 
-A solo game development project for CGAE203: 2D-Game Development.
+A solo game development project for my Midterms in CGAE203: 2D-Game Development.
 
 ## Description
 
