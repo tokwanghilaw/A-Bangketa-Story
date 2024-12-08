@@ -23,7 +23,7 @@ A Bangketa Story is a Unity-made 2D arcade dodging game, inspired by real-life e
 ## Authors
 
 Bianca Natalie Labrador 
-* [@__biancanatalie](https://www.instagram.com/__biancanatalie)
+* Instagram: [@__biancanatalie](https://www.instagram.com/__biancanatalie)
 
 ## Acknowledgments
 
