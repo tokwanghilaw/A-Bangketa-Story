@@ -14,7 +14,7 @@ A Bangketa Story is a Unity-made 2D arcade dodging game, inspired by real-life e
 
 ### Installing and Executing Program
 
-CGAE203_Midterms_Labrador > A Bangketa Story.exe
+A Bangketa Story > CGAE203_Midterms_Labrador > A Bangketa Story.exe
 * GAME IS STILL WIP (Missing: Animations and Game Over Screen)
 
 ## Authors
