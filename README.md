@@ -2,6 +2,8 @@
 
 A solo game development project for my Midterms in CGAE203: 2D-Game Development.
 
+**[WATCH SAMPLE DEMO HERE](https://youtu.be/_hTlvJ-1Png)**
+
 ## Description
 
 A Bangketa Story is a Unity-made 2D arcade dodging game, inspired by real-life experiences in the city at night ( ͡° ͜ʖ ͡°) haha. Just dodge, bro.
