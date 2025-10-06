@@ -1,16 +1,16 @@
 using UnityEngine;
-using System.Collections;  // Add this line for IEnumerator support in coroutines
+using System.Collections; 
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speed = 5f;
     private bool isMoving = false;
-    public float minX = -8.5f; // Left boundary
-    public float maxX = 8.5f; // Right boundary
-    public float slowEffectDuration = 5f; // Duration of the slow effect
-    public float speedReductionFactor = 0.5f; // Factor to reduce the player's speed
-    private bool isSlowed = false; // Flag to check if the player is already slowed
+    public float minX = -8.5f; // left boundary
+    public float maxX = 8.5f; // right boundary
+    public float slowEffectDuration = 5f; // duration of the slow effect
+    public float speedReductionFactor = 0.5f; 
+    private bool isSlowed = false; // flag if the player is slowed
 
     void Start()
     {
