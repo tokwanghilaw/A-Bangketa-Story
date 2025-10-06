@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
             isMoving = false;
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
-        // player's position to be within the screen boundaries
+        // player's position in the screen boundaries
         Vector2 clampedPosition = transform.position;
         clampedPosition.x = Mathf.Clamp(clampedPosition.x, minX, maxX);
         transform.position = clampedPosition;
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Stop movement if player collides with a wall
+        // stop movement if player collides with a wall
         if (collision.gameObject.CompareTag("Poste"))
         {
             isMoving = false;
@@ -68,12 +68,11 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator ApplySlowEffect()
     {
-        isSlowed = true; // Set the flag to true to indicate the player is slowed
+        isSlowed = true; //true = slowed
         float originalSpeed = speed;
         speed *= speedReductionFactor;
-        // Wait for the slow effect duration
         yield return new WaitForSeconds(slowEffectDuration);
-        // Restore the player's original movement speed
+        // restore the player's original movement speed
         speed = originalSpeed;
         isSlowed = false; // Reset the flag after the effect is done
     }
